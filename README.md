@@ -39,3 +39,6 @@ Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+
+## Data
+The benchmark datasets are available in the GitHub Releases section.
