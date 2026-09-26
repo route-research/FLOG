@@ -1,9 +1,0 @@
-torch>=2.0
-numpy
-scipy
-pandas
-tqdm
-matplotlib
-networkx
-pyyaml
-ortools
