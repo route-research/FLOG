@@ -1,0 +1,23 @@
+# Anonymous review configuration: equal-budget, open-route fTOP.
+seed: 0
+batch_size: 8
+learning_rate: 5.0e-5
+max_steps: 3000
+save_every: 100
+
+rho_train: 0.65
+rho_recovery: 0.65
+rho_eval: 0.50
+reward_floor: 0.90
+
+const_max_budget: 2.0
+equal_budget_eps: 1.0e-4
+eval_ins: 10
+
+model:
+  hidden_dim: 128
+  encode_layers: 2
+  heads: 8
+  ff_dim: 256
+  dropout: 0.0
+  tanh_clipping: 10.0

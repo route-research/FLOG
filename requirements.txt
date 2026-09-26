@@ -1,0 +1,5 @@
+torch>=2.0
+pandas>=1.5
+PyYAML>=6.0
+pytest>=7.0
+tensorboard>=2.10
